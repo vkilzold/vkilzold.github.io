@@ -73,7 +73,6 @@ header{
     top: -220px;
     object-fit: contain;
     z-index: -1;
-
 }
 .nav-intro {
     color: transparent;
@@ -139,13 +138,11 @@ h1 {
 .horizontal-graphics {
     display: flex;
     width: 100%;
-
 }
 .graphics-one, .graphics-two{ 
     padding-top: 54px;
     position: relative;
-    top: 6px;
-    
+    top: 6px;  
 }
 .graphics-one {
     width: 600px;
