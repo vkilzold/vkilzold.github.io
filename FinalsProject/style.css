@@ -193,11 +193,9 @@ h1 {
     position: relative;
     bottom: 500px;
 }
-
 .learn-more:hover {
     background-color: #F58800; 
 }
-
 .categories {
     height: 100vh;
     width: 100%;
