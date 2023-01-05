@@ -1,0 +1,75 @@
+@font-face {
+   font-family: TT-Interphase;
+   src: url(/fonts/TT\ Interphases\ Pro\ Trial\ Regular.ttf);
+}
+
+/*Navigation Bar- ALL PAGES*/ 
+body {
+	margin:0;
+	padding:0;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+ul {
+	margin-top:0;
+	padding:0;
+}
+
+nav {
+    background-color: #F58800;
+    opacity: 0.8;
+    height: 7vh;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 0;
+    top: 0;
+    z-index: 99;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 3vh;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav a.active
+{
+	color: white;
+	background-color: none;
+	font-weight: bold;
+}
+
+/* Hover */
+.hover:hover{
+	color:white;
+}
+
+/* Float- ALL PAGES */ 
+.rightfloatnav{
+	float: right;
+	padding:15px 17px;
+	text-decoration:none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+/* Font nav bar */
+h1 {
+    color: white;
+    margin: 0;
+    width: 238px;
+    padding-top: 70px;
+    padding-right: 0px;
+    padding-left: 100px;
+}
