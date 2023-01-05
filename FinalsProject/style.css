@@ -16,6 +16,7 @@ body {
 section {
     width: 100%;
     height: 100vh;
+
 }
 .arrow-up {
     display: center; 
@@ -45,7 +46,7 @@ nav {
     background-color: #051721;
     opacity: 0.8;
     height: 10vh;
-    width: 100%;
+    width: 100vmax;
     position: fixed;
     display: flex;
     align-items: center;
@@ -53,6 +54,7 @@ nav {
     margin: 0;
     top: 0;
     z-index: 99;
+
 }
 nav ul li {
     list-style: none;
@@ -72,11 +74,14 @@ header{
     height: 100vh;
 }
 .back-video{
-    position: absolute;
-    right: 0;
-    top: -20%;
-    object-fit: contain;
-    z-index: -1;
+    width: 100vmax;
+    height: 100%;
+    display: flex;
+    background-size: cover;
+    position: relative;
+    object-fit: cover;
+    background-repeat: no-repeat;
+
 }
 .nav-intro {
     color: transparent;
@@ -85,15 +90,14 @@ header{
 }
 .intro-text {
     color: aliceblue;
-    width: 100px;   
+    width: 100vmax;   
     height: 50px;
     font-size: 120px;
     z-index: 1;
     position: absolute;
-    left: 750px;
     bottom: 350px;
     text-shadow: 1px 1px 2px rgb(101, 101, 101);
-    
+    text-align: left;
 }
 .intro-text-year {
     color: aliceblue;
@@ -102,13 +106,13 @@ header{
     font-size: 120px;
     z-index: 1;
     position: absolute;
-    left: 1060px;
     bottom: 250px;
     text-shadow: 1px 1px 2px rgb(101, 101, 101);
 }
 .featured {
-    height: 100vh;
-    max-width: 1536px;
+    height: 100%;
+
+    width: 100vmax;
     background: #051721;
 }
 h1 {
@@ -201,8 +205,8 @@ h1 {
     background-color: #F58800; 
 }
 .categories {
-    height: 100vh;
-    max-width: 1536px;
+    height: 100%;
+    width: 100vmax;
     background: #051721;
 }
 .horizontal-graphics-two {
@@ -254,6 +258,7 @@ h1 {
     justify-content: center;
     height: 150px;
     width:98%;
+
 }
 .column {
     border: 4px solid #F58800;
@@ -304,9 +309,10 @@ h1 {
     margin: 0;
 }
 .galleries {
+    width: 100%;
     height: 100vh;
-    max-width: 1536px;
-    background: #051721;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .gallery-title {
     display: flex;
@@ -422,7 +428,6 @@ h1 {
     font-family: TT-Interphase-Bold;
     z-index: 1;
     position: absolute;
-    top: 410%;
     left: 160px;
     text-shadow: 1px 1px 2px rgb(59, 59, 59);
 }
@@ -449,6 +454,7 @@ h1 {
     top: 449%;
     left: 155px;
     text-shadow: 1px 1px 2px rgb(59, 59, 59);
+
 }
 .contact-us {
     color: aliceblue;
@@ -463,6 +469,7 @@ h1 {
     text-shadow: 1px 1px 2px rgb(101, 101, 101);
     text-align: justify;
     list-style: none;
+
 }
 .names {
     margin: 5px;
@@ -471,7 +478,7 @@ h1 {
     color: aliceblue;
     font-family: TT-Interphase;
     font-size: 18px;
-    width: 620px;
+
     height: 0;
     text-align: justify;
     position: relative;
@@ -481,11 +488,96 @@ h1 {
     text-align: justify;
     list-style: none;
     z-index: 99;
+    margin-bottom: 200px;
 }
 .profile {
     margin: 5px;
     color: aliceblue;
 }
-.me {
+.prince {
     color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 20px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid;
+    box-shadow: 0 0 10px #9ecaed;
+    position: relative;
 }
+.aron{
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid;
+    box-shadow: 0 0 10px #9ecaed;
+    position: relative;
+    margin-left: 5px;
+}
+.uri{
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid;
+    box-shadow: 0 0 10px #9ecaed;
+    position: relative;
+    margin-left: 5px;
+}
+.jomar{
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid;
+    box-shadow: 0 0 10px #9ecaed;
+    position: relative;
+    margin-left: 5px;
+}
+.ady{
+    color: aliceblue;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 5px 40px;
+    border-radius: 500px;
+    display: inline-block;
+    font-weight: 500;
+    transition: all .4s ease-in-out;
+    background-size: 152% 100%;
+    border: 2px solid;
+    box-shadow: 0 0 10px #9ecaed;
+    position: relative;
+    margin-left: 5px;
+}
+  .navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
